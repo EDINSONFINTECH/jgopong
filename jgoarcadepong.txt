@@ -1,0 +1,54 @@
+# JUEGO ARCADE PONG:  Reproduce el clásico juego de arcade Pong.
+# Para ello puedes usar el módulo "turtle" para crear los componentes 
+# del juego y detectar las colisiones de la pelota con las paletas de los jugadores.
+# También puedes definir una serie de asignaciones de teclas para establecer los 
+# controles del usuario para las paletas de los jugadores izquierda y derecha. 
+
+"""El juego de Pong consiste en dos paletas que se mueven verticalmente para
+golpear una pelota que rebota en los bordes de la pantalla. El objetivo es evitar 
+que la pelota se escape por el lado de tu paleta y tratar de hacer que se escape por
+el lado de la paleta del oponente. Para hacer este juego, se necesita usar el módulo "turtle",
+que  permite dibujar gráficos y formas en la pantalla con una tortuga que se mueve siguiendo
+tus comandos. También se necesitara definir unas teclas para controlar el movimiento de las paletas,
+y unas variables para guardar el estado del juego, como la puntuación,
+la velocidad y la dirección de la pelota."""
+
+# Es un desafio muy complejo el que se requiere pero totalmente posible.
+
+# Voy a detallar a continuacion el proceso realizado
+
+""" 1. Abre VS Code y crea un nuevo archivo llamado pong.py. (o Similar) 
+Guarda el archivo en una carpeta donde quieras guardar tu proyecto.
+2. Importa el módulo turtle con el comando `import turtle`.
+Este módulo te permitirá crear la ventana del juego, las paletas, la pelota y el marcador.
+3. Crea la ventana del juego con el método `turtle.Screen()`,
+que te devuelve un objeto que representa la pantalla. Asigna este objeto a una 
+variable llamada `ventana`
+4. Crea las paletas de los jugadores con el método `turtle.Turtle()`, que te devuelve un objeto
+que representa una tortuga. Asigna estos objetos a dos variables llamadas `paleta_a` y `paleta_b`.
+5. Crea la pelota con el mismo método `turtle.Turtle()`, y asigna el objeto 
+resultante a una variable llamada `pelota`. 
+6. Crea dos variables llamadas `pelota.dx` y `pelota.dy`, y asígnales un valor
+inicial de 0.3. Estas variables representan el desplazamiento 
+o cambio en x y en y de la pelota cada vez que se mueve. 
+Puedes cambiar estos valores para modificar la velocidad y dirección de la pelota.
+7. Crea dos variables llamadas `marcador_a` y `marcador_b`, 
+y asígnales un valor inicial de 0. Estas variables representan la puntuación de cada jugador,
+que se incrementa cada vez que el oponente deja escapar la pelota por su lado.
+8. Crea el marcador con el mismo método `turtle.Turtle()`, y asigna el objeto resultante 
+a una variable llamada `marcador`.
+9. Define las funciones para mover las paletas hacia arriba y hacia abajo con los métodos 
+`forward()` y `backward()`, que mueven la tortuga una cierta distancia en la dirección que apunta.
+También puedes usar los métodos `sety()` y `ycor()` para modificar y obtener la 
+coordenada y de la tortuga. 
+10. Asigna las teclas para controlar el movimiento de las paletas con el método `listen()`,
+que hace que la ventana escuche los eventos del teclado, y el método `onkeypress()`,
+que llama a una función cuando se presiona una tecla específica. 
+11. Crea un bucle infinito con el comando `while True:`, que se ejecutará hasta que se cierre
+la ventana o se interrumpa el programa. Dentro del bucle, escribe el código para actualizar 
+la posición de la pelota, detectar las colisiones con los bordes y las paletas, y actualizar el marcador.
+ 
+"""
+
+# Como este texto esta tan largo, lo dejare solo como Archivo de texto complementario. 
+# Pasare a otro archivo para el podigo
